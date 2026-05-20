@@ -1,0 +1,29 @@
+# dependency folders
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# build output
+client/dist/
+
+# environment variables
+.env
+*.env
+client/.env
+server/.env
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# editor files
+.vscode/
+.idea/
+
+# optional
+*.local
